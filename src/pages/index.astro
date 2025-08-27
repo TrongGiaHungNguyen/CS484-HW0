@@ -6,6 +6,29 @@ import Layout from '../layouts/Layout.astro';
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!-- <Layout> -->
+	<!-- <Welcome /> -->
+	 
+<!-- </Layout> -->
+
+<html>
+  <head>
+    <title>Centered Text</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;             /* full screen height */
+        display: flex;             /* enable flexbox */
+        flex-direction: column;    /* stack text vertically */
+        justify-content: center;   /* center vertically */
+        align-items: center;       /* center horizontally */
+        font-family: monospace;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>tnguy321@uic.edu</h1>
+    <h2>CS 484 Homework 0</h2>
+  </body>
+</html>
